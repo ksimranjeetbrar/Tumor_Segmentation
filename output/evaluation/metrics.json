@@ -1,0 +1,162 @@
+{
+  "zero_shot": {
+    "method": "SAM Zero-Shot",
+    "per_image": {
+      "BraTS20_Training_024_axial_031": {
+        "dice": 0.0029585798816568047,
+        "iou": 0.0014814814814814814,
+        "sensitivity": 1.0,
+        "specificity": 0.9794305246131779
+      },
+      "BraTS20_Training_024_axial_032": {
+        "dice": 0.009569377990430622,
+        "iou": 0.004807692307692308,
+        "sensitivity": 1.0,
+        "specificity": 0.9778876527949457
+      },
+      "BraTS20_Training_024_axial_033": {
+        "dice": 0.05768025078369906,
+        "iou": 0.029696578437701744,
+        "sensitivity": 1.0,
+        "specificity": 0.9770499312872194
+      },
+      "BraTS20_Training_024_axial_034": {
+        "dice": 0.1047783534830167,
+        "iou": 0.05528554070473876,
+        "sensitivity": 1.0,
+        "specificity": 0.9762395904958362
+      },
+      "BraTS20_Training_024_axial_035": {
+        "dice": 0.14597240765465064,
+        "iou": 0.07873259721555449,
+        "sensitivity": 1.0,
+        "specificity": 0.9706449244324787
+      },
+      "BraTS20_Training_024_axial_036": {
+        "dice": 0.04034830588843866,
+        "iou": 0.02058952925648922,
+        "sensitivity": 1.0,
+        "specificity": 0.8295458025787877
+      },
+      "BraTS20_Training_024_axial_037": {
+        "dice": 0.07385033602658007,
+        "iou": 0.03834091265485338,
+        "sensitivity": 1.0,
+        "specificity": 0.8114440327763002
+      },
+      "BraTS20_Training_024_axial_038": {
+        "dice": 0.09635036496350365,
+        "iou": 0.05061349693251534,
+        "sensitivity": 1.0,
+        "specificity": 0.8091744250570319
+      },
+      "BraTS20_Training_024_axial_039": {
+        "dice": 0.11817855862316243,
+        "iou": 0.06280009145644387,
+        "sensitivity": 1.0,
+        "specificity": 0.8099734206947706
+      },
+      "BraTS20_Training_024_axial_040": {
+        "dice": 0.1506504406210659,
+        "iou": 0.08146131154980712,
+        "sensitivity": 0.9990723562152134,
+        "specificity": 0.8116137640013652
+      }
+    },
+    "aggregate": {
+      "dice_mean": 0.08003369759162045,
+      "dice_std": 0.049685847984334494,
+      "dice_min": 0.0029585798816568047,
+      "dice_max": 0.1506504406210659,
+      "iou_mean": 0.04238092319972777,
+      "iou_std": 0.02690085307685043,
+      "iou_min": 0.0014814814814814814,
+      "iou_max": 0.08146131154980712,
+      "sensitivity_mean": 0.9999072356215214,
+      "sensitivity_std": 0.0002782931354359808,
+      "specificity_mean": 0.8953004068731912,
+      "specificity_std": 0.08115839783126813,
+      "num_images": 10
+    }
+  },
+  "fine_tuned": {
+    "method": "SAM Fine-Tuned",
+    "per_image": {
+      "BraTS20_Training_024_axial_031": {
+        "dice": 0.0,
+        "iou": 0.0,
+        "sensitivity": 0.0,
+        "specificity": 0.1650746177556688
+      },
+      "BraTS20_Training_024_axial_032": {
+        "dice": 0.0,
+        "iou": 0.0,
+        "sensitivity": 0.0,
+        "specificity": 0.16829190129560959
+      },
+      "BraTS20_Training_024_axial_033": {
+        "dice": 0.0,
+        "iou": 0.0,
+        "sensitivity": 0.0,
+        "specificity": 0.1755840586349061
+      },
+      "BraTS20_Training_024_axial_034": {
+        "dice": 7.468399335312459e-05,
+        "iou": 3.7343391153350634e-05,
+        "sensitivity": 0.02197802197802198,
+        "specificity": 0.1830391932156773
+      },
+      "BraTS20_Training_024_axial_035": {
+        "dice": 0.0,
+        "iou": 0.0,
+        "sensitivity": 0.0,
+        "specificity": 0.18902588264088602
+      },
+      "BraTS20_Training_024_axial_036": {
+        "dice": 7.578484681987837e-05,
+        "iou": 3.789385930010042e-05,
+        "sensitivity": 0.008547008547008548,
+        "specificity": 0.1953538942145723
+      },
+      "BraTS20_Training_024_axial_037": {
+        "dice": 0.0002653273950535393,
+        "iou": 0.00013268129951855644,
+        "sensitivity": 0.014314928425357873,
+        "specificity": 0.19644257229387982
+      },
+      "BraTS20_Training_024_axial_038": {
+        "dice": 0.00026476039184537993,
+        "iou": 0.00013239772275916854,
+        "sensitivity": 0.010606060606060607,
+        "specificity": 0.1952185708120106
+      },
+      "BraTS20_Training_024_axial_039": {
+        "dice": 0.000608422853883449,
+        "iou": 0.000304303999695696,
+        "sensitivity": 0.019417475728155338,
+        "specificity": 0.20022561503276054
+      },
+      "BraTS20_Training_024_axial_040": {
+        "dice": 0.0003412839861969588,
+        "iou": 0.00017067111675800732,
+        "sensitivity": 0.008348794063079777,
+        "specificity": 0.1986254615408483
+      }
+    },
+    "aggregate": {
+      "dice_mean": 0.000163026346715233,
+      "dice_std": 0.00019305309234915433,
+      "dice_min": 0.0,
+      "dice_max": 0.000608422853883449,
+      "iou_mean": 8.152913891848794e-05,
+      "iou_std": 9.655232108424786e-05,
+      "iou_min": 0.0,
+      "iou_max": 0.000304303999695696,
+      "sensitivity_mean": 0.008321228934768412,
+      "sensitivity_std": 0.007923400271881707,
+      "specificity_mean": 0.18668817674368193,
+      "specificity_std": 0.012314307896378305,
+      "num_images": 10
+    }
+  }
+}

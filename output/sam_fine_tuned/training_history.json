@@ -1,0 +1,28 @@
+{
+  "loss": [
+    0.8898874984847175,
+    0.6374653312895033,
+    0.33980173534817165,
+    0.26388821336958146,
+    0.23054428895314535
+  ],
+  "epoch_times": [
+    4.536802053451538,
+    4.434760093688965,
+    4.42780065536499,
+    4.448177814483643,
+    4.494433164596558
+  ],
+  "configs": {
+    "model_type": "vit_b",
+    "epochs": 5,
+    "batch_size": 1,
+    "learning_rate": 0.0001,
+    "image_size": 256,
+    "optimizer": "Adam",
+    "loss": "Dice Loss",
+    "frozen_encoder": true,
+    "device": "cuda"
+  },
+  "note": "Evaluation-only mode (predictor uses torch.no_grad)"
+}
